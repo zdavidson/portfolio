@@ -5,7 +5,13 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="text-container">
-        <h1>Hey, I'm Zoë Davidson and I love building beautiful websites</h1>
+        <h1>
+          Hey, I'm{" "}
+          <a id="name" href="#about">
+            Zoë Davidson
+          </a>{" "}
+          and I love building beautiful websites
+        </h1>
         <Button id="about-me-button" variant="success" href="#about">
           About Me
         </Button>

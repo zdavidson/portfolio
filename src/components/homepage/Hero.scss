@@ -13,6 +13,11 @@
     width: 100%;
   }
 
+  #name {
+    color: "black";
+    text-decoration-color: "underline";
+  }
+
   // Small Screens
   @media only screen and (max-width: 600px) {
     background-image: none;

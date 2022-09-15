@@ -23,15 +23,16 @@ const AboutMe = () => {
               I’m a software engineer looking for a position at a company that
               is looking to make a positive difference in the world. I focus on
               writing accessible HTML, using modern CSS practices and writing
-              clean JavaScript. When it comes to front end technologies, I'm
-              well versed in React, but I can adapt to whatever tools are
+              clean TypeScript of JavaScript. When it comes to front end
+              technologies, I'm well versed in React, Next.js, GraphQL, Material
+              UI, Redux, and Relay, but I can adapt to whatever tools are
               required. As far as the back end goes, I have experience with
-              Node.js, Express, and PostgreSQL. I’m currently based in
+              Node.js, Express, Supabase, and PostgreSQL. I’m currently based in
               Washington, DC, but I’m happiest working remotely and have
               experience being on remote teams. When I’m not coding, you’ll find
-              me taking photos and travelling. I love art in all its forms, but
-              particularly in print or on film. I’d love for you to check out my
-              work{" "}
+              me taking photos and traveling. I love art in all its forms, but
+              particularly in pictures or on film. I’d love for you to check out
+              my work
               <a className="no-style" href="/portfolio">
                 here
               </a>

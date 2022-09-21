@@ -32,7 +32,7 @@ const AboutMe = () => {
               experience being on remote teams. When I’m not coding, you’ll find
               me taking photos and traveling. I love art in all its forms, but
               particularly in pictures or on film. I’d love for you to check out
-              my work
+              my work{" "}
               <a className="no-style" href="/portfolio">
                 here
               </a>

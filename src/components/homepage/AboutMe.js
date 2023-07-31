@@ -11,16 +11,13 @@ const AboutMe = () => {
           <img className="about-image" src="./profile.jpg" alt="profile" />
         </Col>
         <Col className="text-column">
-          <Row>
-            <div className="line"></div>
-          </Row>
 
           <Row>
             <h2>About Me</h2>
           </Row>
           <Row>
             <p>
-              I’m an experienced software engineer who focuses on maintaining
+              I’m an experienced software engineer and former university professor who focuses on maintaining
               accessible HTML, using modern CSS practices and writing clean
               TypeScript and JavaScript. When it comes to front end
               technologies, I'm well versed in React, Next.js, GraphQL, Material
@@ -28,15 +25,20 @@ const AboutMe = () => {
               required. As far as the back end goes, I have experience with
               Node.js, Express, Supabase, and PostgreSQL. I’m currently based in
               Washington, DC. When I’m not coding, you’ll find me taking photos
-              and traveling. I love art in all its forms, but particularly in
-              pictures or on film. I’d love for you to check out my work{" "}
-              <a className="no-style" href="/portfolio">
+              and traveling.
+              <br></br>
+              <br></br>
+              Recently, I created an <a className="no-style" href="https://davidsonprogramming.com/academy">online bootcamp</a> to teach aspiring Front-End developers how to get started. Click <a className="no-style" href="https://davidsonprogramming.com/academy">here</a> to check that out.
+              <br></br>
+              <br></br>
+               I’d also love for you to check out my work{" "}
+              {/* <a className="no-style" href="/portfolio">
                 here
               </a>
-              , or on{" "}
+              , or on{" "} */}
               <a className="no-style" href="https://github.com/zdavidson">
                 {" "}
-                GitHub{" "}
+                on GitHub
               </a>
               .
             </p>
@@ -49,9 +51,9 @@ const AboutMe = () => {
               Go To Portfolio
             </Button>
           </Row>
-          <Row>
+          {/* <Row>
             <div className="line end"></div>
-          </Row>
+          </Row> */}
         </Col>
       </Row>
     </div>

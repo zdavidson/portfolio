@@ -9,11 +9,17 @@ const Navigation = () => {
         <img src="./logo.svg" alt="site-logo" />
       </NavBar.Brand>
       <Nav className="ml-auto">
-        <Nav.Link className="mr-4 header-link" href="/">
+        <Nav.Link className="mr-2 header-link" href="/">
           Home
         </Nav.Link>
         <Nav.Link
-          className="mr-4 header-link"
+          className="mr-2 header-link"
+          href="https://davidsonprogramming.com/academy"
+        >
+         Learn to Code
+        </Nav.Link>
+        <Nav.Link
+          className="mr-2 header-link"
           href="https://github.com/zdavidson"
         >
           Portfolio

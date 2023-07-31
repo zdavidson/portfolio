@@ -70,10 +70,16 @@
       align-items: center;
       text-align: center;
     }
+
+    #about-image-col {
+      display: flex;
+      justify-content: center;
+    }
   }
 
   // Medium Screens
   @media screen and (min-width: 600px) and (max-width: 960px) {
+    
   }
 
   // Large Screens

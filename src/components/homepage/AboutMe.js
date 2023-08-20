@@ -28,7 +28,7 @@ const AboutMe = () => {
               and traveling.
               <br></br>
               <br></br>
-              Recently, I created an <a className="no-style" href="https://davidsonprogramming.com/academy">online bootcamp</a> to teach aspiring Front-End developers how to get started. Click <a className="no-style" href="https://davidsonprogramming.com/academy">here</a> to check that out.
+              Recently, I created an <a className="no-style" href="https://www.davidsonprogrammingacademy.com">online bootcamp</a> to teach aspiring Front-End developers how to get started. Click <a className="no-style" href="https://davidsonprogramming.com/academy">here</a> to check that out.
               <br></br>
               <br></br>
                I’d also love for you to check out my work{" "}

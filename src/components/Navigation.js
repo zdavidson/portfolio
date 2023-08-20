@@ -14,7 +14,7 @@ const Navigation = () => {
         </Nav.Link>
         <Nav.Link
           className="mr-2 header-link"
-          href="https://davidsonprogramming.com/academy"
+          href="https://www.davidsonprogrammingacademy.com"
         >
          Learn to Code
         </Nav.Link>

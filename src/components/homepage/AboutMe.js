@@ -1,7 +1,6 @@
 import "./AboutMe.scss";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
 
 const AboutMe = () => {
   return (
@@ -11,34 +10,73 @@ const AboutMe = () => {
           <img className="about-image" src="./profile.jpg" alt="profile" />
         </Col>
         <Col className="text-column">
-
           <Row>
             <h2>About Me</h2>
           </Row>
           <Row>
             <p>
-              I’m a senior software engineer with a background in education and a proven track record of delivering impactful digital products at scale. 
-              At IKEA’s Geomagical Labs, I’ve led the launch of cutting-edge, mixed-reality design tools that reach millions of users worldwide—resulting 
-              in thousands of new users annually. I've built performant, accessible, and maintainable front-end experiences using modern tools like React, 
-              Next.js, GraphQL, Redux, Relay, and TypeScript, and I’ve contributed across the stack with Node.js, Supabase, and PostgreSQL.
+              I’m a{" "}
+              <strong>Senior Software Engineer and Developer Educator</strong>{" "}
+              with a passion for building, teaching, and inspiring through code.
+              At <strong>IKEA’s Geomagical Labs</strong>, I’ve led the
+              development and launch of cutting-edge mixed-reality design tools
+              that reach millions of users worldwide—driving growth,
+              accessibility, and performance at scale.
               <br></br>
-              I'm especially passionate about crafting clean, accessible interfaces with modern CSS and scalable component systems. I’ve also created an 
-              online bootcamp and YouTube channel to mentor and support aspiring front-end developers.
+              With expertise in{" "}
+              <strong>
+                React, Next.js, TypeScript, GraphQL, Redux, and Relay
+              </strong>
+              , I create fast, maintainable, and visually engaging web
+              experiences. I also work across the stack with{" "}
+              <strong>Node.js, Supabase, and PostgreSQL</strong>
+              to deliver complete, production-ready solutions.
               <br></br>
-              I’m currently based in Washington, DC. When I’m not coding, I’m usually behind a camera or exploring a new city.
+              Beyond engineering, I’m deeply committed to{" "}
+              <strong>developer education</strong>. Through my
+              <a
+                className="no-style"
+                href="https://www.youtube.com/@davidsonprogrammingacademy"
+                target="_blank"
+                rel="noreferrer"
+              >
+                YouTube channel
+              </a>
+              and online bootcamp, I’ve mentored thousands of aspiring
+              engineers—breaking down complex frontend concepts into clear,
+              visual lessons that make learning to code more accessible and
+              creative.
               <br></br>
-              <a className="no-style" href="https://www.davidsonprogrammingacademy.com"> → Check out the bootcamp</a>
-              <a className="no-style" href="https://github.com/zdavidson"> → View my projects on GitHub </a>
+              I’m currently based in Washington, DC. When I’m not coding or
+              teaching, you’ll probably find me behind a camera or exploring a
+              new city.
+              <br></br>
+              <a
+                className="no-style"
+                href="https://www.davidsonprogrammingacademy.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                → Explore the bootcamp
+              </a>
+              <a
+                className="no-style"
+                href="https://www.youtube.com/@davidsonprogrammingacademy"
+                target="_blank"
+                rel="noreferrer"
+              >
+                → Watch my tutorials on YouTube
+              </a>
+              <a
+                className="no-style"
+                href="https://github.com/zdavidson"
+                target="_blank"
+                rel="noreferrer"
+              >
+                → View my projects on GitHub
+              </a>
             </p>
           </Row>
-          // <Row>
-          //   <Button
-          //     variant="outline-secondary"
-          //     href="https://github.com/zdavidson"
-          //   >
-          //     Go To Portfolio
-          //   </Button>
-          // </Row>
         </Col>
       </Row>
     </div>

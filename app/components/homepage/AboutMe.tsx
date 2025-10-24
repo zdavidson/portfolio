@@ -48,9 +48,9 @@ const AboutMe = () => {
             >
               YouTube channel
             </a>{" "}
-            and online bootcamp, I’ve mentored thousands of aspiring
-            engineers—breaking down complex frontend concepts into clear, visual
-            lessons that make learning to code more accessible and creative.
+            and online bootcamp, I’ve mentored thousands of aspiring engineers,
+            breaking down complex frontend concepts into clear, visual lessons
+            that make learning to code more accessible and creative.
             <br></br>
             <br></br>I’m currently based in Washington, DC. When I’m not coding
             or teaching, you’ll probably find me behind a camera or exploring a

@@ -61,7 +61,7 @@ const Footer = () => {
             {/* <Link className="mr-2 footer-link" href="#portfolio">
             <img src="./twitter.svg" alt="twitter-icon" />
           </Link> --- maybe Vimeo?*/}
-            <Link
+            {/*  <Link
               className="footer-link"
               href="https://www.linkedin.com/in/zo%C3%ABdavidson/"
             >
@@ -71,7 +71,7 @@ const Footer = () => {
                 width={24}
                 height={24}
               />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </Container>
